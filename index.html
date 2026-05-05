@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kazi — Security Researcher, Penetration Tester, CTF Player">
+  <meta property="og:title" content="Kazi — Security Researcher">
+  <meta property="og:description" content="Penetration tester, security researcher, CTF player. Turning attack surfaces into lessons.">
+  <meta property="og:type" content="website">
+  <title>Kazi — Security Researcher</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <nav id="navbar">
+    <div class="nav-wrap">
+      <a href="#hero" class="logo" aria-label="Home">
+        <span class="lb">[</span><span class="li">KF</span><span class="lc">_</span><span class="lb">]</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about"><em>01.</em>about</a></li>
+        <li><a href="#arsenal"><em>02.</em>arsenal</a></li>
+        <li><a href="#operations"><em>03.</em>ops</a></li>
+        <li><a href="#timeline"><em>04.</em>timeline</a></li>
+        <li><a href="#contact" class="nav-cta">contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── MOBILE MENU ─── -->
+  <div class="mob-menu" id="mobMenu">
+    <ul>
+      <li><a href="#about"      class="mob-lnk">01. about</a></li>
+      <li><a href="#arsenal"    class="mob-lnk">02. arsenal</a></li>
+      <li><a href="#operations" class="mob-lnk">03. ops</a></li>
+      <li><a href="#timeline"   class="mob-lnk">04. timeline</a></li>
+      <li><a href="#contact"    class="mob-lnk">05. contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section id="hero">
+      <div class="hero-glow"></div>
+      <div class="terminal">
+        <div class="term-bar">
+          <div class="term-dots">
+            <span class="td-r"></span>
+            <span class="td-y"></span>
+            <span class="td-g"></span>
+          </div>
+          <span class="term-ttl">kazi@kali: ~</span>
+          <div class="term-dots" style="visibility:hidden"></div>
+        </div>
+        <div class="term-body">
+          <div class="tline">
+            <span class="prm">❯</span>
+            <span class="cmd">whoami</span>
+          </div>
+          <div class="tout name-out">
+            <h1>Kazi Faiaz</h1>
+          </div>
+
+          <div class="tline">
+            <span class="prm">❯</span>
+            <span class="cmd">cat /etc/roles</span>
+          </div>
+          <div class="tout">
+            <p class="role-line"><span id="tw"></span><span class="bcur">█</span></p>
+          </div>
+
+          <div class="tline">
+            <span class="prm">❯</span>
+            <span class="cmd">systemctl status operator</span>
+          </div>
+          <div class="tout">
+            <!-- Update this line with your actual position -->
+            <p class="status-line">
+              <span class="sdot">●</span> ACTIVE — Security Analyst @ Accenture &nbsp;·&nbsp; Continuous Learner &nbsp;·&nbsp; CTF Player
+            </p>
+          </div>
+
+          <div class="tline" style="margin-top:6px">
+            <span class="prm">❯</span>
+            <span class="bcur" style="font-size:16px">▊</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-bar"></div>
+      </div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section id="about">
+      <div class="sh">
+        <span class="sn">01</span>
+        <h2 class="st">about<span class="dot">.</span></h2>
+        <div class="sl"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <!--
+            UPDATE: Replace this with your own bio.
+          -->
+          <p>Security professional with a relentless drive to understand how things break. I operate at the crossroads of <mark>penetration testing</mark>, <mark>threat analysis</mark>, and <mark>security engineering</mark> — turning attack surfaces into battle maps and vulnerabilities into actionable intelligence.</p>
+          <p>When I'm not on an engagement, I'm sharpening edges through <mark>CTF competitions</mark>, building offensive tools, and documenting what I learn along the way. Every system tells a story. I prefer reading it from the outside in.</p>
+          <p>Currently working with enterprise clients at Accenture, where the scale of complexity keeps things interesting.</p>
+          <a href="#contact" class="btn">get in touch</a>
+        </div>
+        <div class="stat-grid">
+          <!-- UPDATE: Replace with your actual stats -->
+          <div class="stat-box">
+            <span class="sval">50+</span>
+            <span class="slbl">CTF Challenges</span>
+          </div>
+          <div class="stat-box">
+            <span class="sval">∞</span>
+            <span class="slbl">Things to Learn</span>
+          </div>
+          <div class="stat-box">
+            <span class="sval">0</span>
+            <span class="slbl">Zero Days (Disclosed)</span>
+          </div>
+          <div class="stat-box">
+            <span class="sval">24/7</span>
+            <span class="slbl">Threat Mindset</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ARSENAL ─── -->
+    <section id="arsenal">
+      <div class="sh">
+        <span class="sn">02</span>
+        <h2 class="st">arsenal<span class="dot">.</span></h2>
+        <div class="sl"></div>
+      </div>
+      <div class="ars-wrap">
+
+        <div class="ars-block">
+          <h3 class="ac">// pentesting tools</h3>
+          <div class="tags">
+            <!-- UPDATE: Your actual toolset -->
+            <span class="tag">Nmap</span>
+            <span class="tag">Metasploit</span>
+            <span class="tag">Burp Suite</span>
+            <span class="tag">Wireshark</span>
+            <span class="tag">Gobuster</span>
+            <span class="tag">ffuf</span>
+            <span class="tag">SQLMap</span>
+            <span class="tag">Hydra</span>
+            <span class="tag">John the Ripper</span>
+            <span class="tag">Hashcat</span>
+            <span class="tag">Responder</span>
+            <span class="tag">BloodHound</span>
+            <span class="tag">Nikto</span>
+            <span class="tag">Impacket</span>
+          </div>
+        </div>
+
+        <div class="ars-block">
+          <h3 class="ac">// languages & scripting</h3>
+          <div class="tags">
+            <!-- UPDATE: Your actual languages -->
+            <span class="tag active">Python</span>
+            <span class="tag active">Bash</span>
+            <span class="tag active">PowerShell</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Go</span>
+          </div>
+        </div>
+
+        <div class="ars-block">
+          <h3 class="ac">// domains</h3>
+          <div class="tags">
+            <!-- UPDATE: Your actual focus areas -->
+            <span class="tag active">Web App Pentesting</span>
+            <span class="tag active">Network Pentesting</span>
+            <span class="tag">Active Directory</span>
+            <span class="tag">OSINT</span>
+            <span class="tag">Malware Analysis</span>
+            <span class="tag">Threat Modeling</span>
+            <span class="tag">Social Engineering</span>
+            <span class="tag">CTF</span>
+          </div>
+        </div>
+
+        <div class="ars-block">
+          <h3 class="ac">// certifications</h3>
+          <div class="cert-row">
+            <!-- UPDATE: Your actual certs -->
+            <div class="cert">
+              <span class="cico">◈</span>
+              <div>
+                <strong>CEH</strong>
+                <small>Certified Ethical Hacker</small>
+              </div>
+            </div>
+            <div class="cert cert-wip">
+              <span class="cico">◎</span>
+              <div>
+                <strong>OSCP</strong>
+                <small>In Progress</small>
+              </div>
+            </div>
+            <div class="cert">
+              <span class="cico">◈</span>
+              <div>
+                <strong>TryHackMe</strong>
+                <small>Top 5%</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─── OPERATIONS ─── -->
+    <section id="operations">
+      <div class="sh">
+        <span class="sn">03</span>
+        <h2 class="st">operations<span class="dot">.</span></h2>
+        <div class="sl"></div>
+      </div>
+      <div class="ops-grid">
+
+        <!-- UPDATE: Replace cards with your actual projects / writeups -->
+        <article class="op-card">
+          <div class="op-head">
+            <span class="op-type">CTF Writeup</span>
+            <span class="badge hard">HARD</span>
+          </div>
+          <h3>Buffer Overflow Exploitation</h3>
+          <p>Stack-based buffer overflow on a vulnerable binary. Crafted shellcode, bypassed ASLR, achieved remote code execution on the target machine.</p>
+          <div class="op-tags">
+            <span>Binary Exploitation</span><span>x86 ASM</span><span>pwntools</span>
+          </div>
+          <a href="#" class="op-link">read writeup →</a>
+        </article>
+
+        <article class="op-card">
+          <div class="op-head">
+            <span class="op-type">Tool</span>
+            <span class="badge med">MEDIUM</span>
+          </div>
+          <h3>Recon Automation Script</h3>
+          <p>Python tool chaining Nmap, Gobuster, and Shodan to automatically map a target's attack surface — one command, full picture.</p>
+          <div class="op-tags">
+            <span>Python</span><span>OSINT</span><span>Automation</span>
+          </div>
+          <a href="#" class="op-link">view on github →</a>
+        </article>
+
+        <article class="op-card">
+          <div class="op-head">
+            <span class="op-type">Research</span>
+            <span class="badge med">MEDIUM</span>
+          </div>
+          <h3>AD Privilege Escalation Lab</h3>
+          <p>Home lab environment for practising Active Directory attacks — Kerberoasting, Pass-the-Hash, DCSync, and lateral movement chains.</p>
+          <div class="op-tags">
+            <span>Active Directory</span><span>BloodHound</span><span>Impacket</span>
+          </div>
+          <a href="#" class="op-link">read notes →</a>
+        </article>
+
+        <article class="op-card">
+          <div class="op-head">
+            <span class="op-type">CTF Writeup</span>
+            <span class="badge easy">EASY</span>
+          </div>
+          <h3>LFI → RCE Chain</h3>
+          <p>Local File Inclusion vulnerability chained with log poisoning to achieve remote code execution. Classic but effective — and well worth documenting.</p>
+          <div class="op-tags">
+            <span>Web App</span><span>LFI</span><span>RCE</span>
+          </div>
+          <a href="#" class="op-link">read writeup →</a>
+        </article>
+
+        <article class="op-card">
+          <div class="op-head">
+            <span class="op-type">Tool</span>
+            <span class="badge hard">HARD</span>
+          </div>
+          <h3>Custom C2 — Lab Environment</h3>
+          <p>Educational command-and-control framework for home lab red team practice. Understanding C2 infrastructure from both sides of the wire.</p>
+          <div class="op-tags">
+            <span>Go</span><span>Red Team</span><span>Lab Only</span>
+          </div>
+          <a href="#" class="op-link">view notes →</a>
+        </article>
+
+        <article class="op-card soon">
+          <div class="op-head">
+            <span class="op-type">Coming Soon</span>
+            <span class="badge tbd">TBD</span>
+          </div>
+          <h3>More in the Pipeline...</h3>
+          <p>Currently working on new writeups, tools, and research. Stay tuned.</p>
+          <div class="op-tags">
+            <span>???</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ─── TIMELINE ─── -->
+    <section id="timeline">
+      <div class="sh">
+        <span class="sn">04</span>
+        <h2 class="st">timeline<span class="dot">.</span></h2>
+        <div class="sl"></div>
+      </div>
+      <div class="tl-wrap">
+
+        <!-- UPDATE: Replace with your actual history -->
+        <div class="tl-item">
+          <div class="tl-pin"></div>
+          <div class="tl-body">
+            <span class="tl-date">2024 — Present</span>
+            <h3>Security Analyst @ Accenture</h3>
+            <p>Enterprise security engagements, threat analysis, and consulting across diverse client environments. Translating attacker mindset into defensive recommendations at scale.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-pin"></div>
+          <div class="tl-body">
+            <span class="tl-date">2023</span>
+            <h3>Deep CTF Dive &amp; TryHackMe</h3>
+            <p>Started competing seriously in capture-the-flag competitions. TryHackMe Top 5%. Fell down the binary exploitation rabbit hole and haven't come back up.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-pin"></div>
+          <div class="tl-body">
+            <span class="tl-date">2022</span>
+            <h3>The Rabbit Hole Begins</h3>
+            <p>Deliberate first steps into offensive security. Home lab, Kali Linux, first shells. Discovered that every protocol has a crack if you look long enough.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-pin"></div>
+          <div class="tl-body">
+            <span class="tl-date">2021</span>
+            <h3>CS Degree — Graduated</h3>
+            <p>Computer Science fundamentals: networking, operating systems, algorithms, low-level programming. The foundation everything else is built on.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section id="contact">
+      <div class="sh">
+        <span class="sn">05</span>
+        <h2 class="st">contact<span class="dot">.</span></h2>
+        <div class="sl"></div>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-text">
+          <p class="cl">Let's connect.</p>
+          <p>Open to discussing security research, collaborating on CTFs, or talking through an interesting problem. If you're working on something challenging — reach out.</p>
+        </div>
+        <div class="contact-list">
+          <!-- UPDATE: Replace href values with your actual links -->
+          <a href="mailto:your@email.com" class="ci">
+            <span class="cico-c">✉</span>
+            <span class="clbl">email</span>
+            <span class="carrow">→</span>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="ci">
+            <span class="cico-c">⌥</span>
+            <span class="clbl">github</span>
+            <span class="carrow">→</span>
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="ci">
+            <span class="cico-c">◈</span>
+            <span class="clbl">linkedin</span>
+            <span class="carrow">→</span>
+          </a>
+          <a href="https://tryhackme.com/p/yourusername" target="_blank" rel="noopener" class="ci">
+            <span class="cico-c">⬡</span>
+            <span class="clbl">tryhackme</span>
+            <span class="carrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="ft-inner">
+      <p><span class="prm-ft">❯</span> built with curiosity &amp; caffeine — kazi faiaz © 2025</p>
+      <p class="ft-quote">"the quieter you become, the more you can hear"</p>
+    </div>
+  </footer>
+
+  <button id="back-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
