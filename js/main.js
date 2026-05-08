@@ -2,10 +2,8 @@
 const roles = [
   'Penetration Tester',
   'Security Researcher',
-  'CTF Player',
-  'Red Team Enthusiast',
   'Bug Hunter',
-  'OSINT Investigator',
+  'Cybersecurity Adjunct',
 ];
 
 let ri = 0, ci = 0, deleting = false;
